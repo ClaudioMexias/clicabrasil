@@ -1,0 +1,363 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+    border: none;
+
+}
+
+
+
+html, body {
+    width: 100%;
+
+}
+
+body {
+    background-color: #12130f;
+    /*    */
+    overflow-x: hidden;
+    font-size: 0.96em;
+    font-weight: 400;
+    font-family: 'PT Sans', sans-serif;
+    color: #ffffff;
+
+}
+
+/* promessa */
+h1 {
+    font-size: 2.37em;
+    font-weight: 700;
+
+}
+
+/* titulo */
+h2 {
+    font-size: 1.75em;
+    font-weight: 600;
+
+}
+
+/* subtitulo */
+h3 {
+    font-size: 1.25em;
+    font-weight: 500;
+
+
+}
+
+/* cta */
+h4 {
+    font-size: 1.12em;
+    font-weight: 400;
+
+}
+
+/* detalhes */
+h5 {
+    font-size: 0.87em;
+    font-weight: 400;
+
+}
+
+/* menores */
+h6 {
+    font-size: 0.75em;
+    font-weight: 400;
+
+}
+
+/* corpo do texto */
+p {
+    font-size: 1.12em;
+    font-weight: 400;
+
+}
+
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 32px 135px;
+    width: 100vw;
+    height: auto;
+    background: linear-gradient(0deg, #C5F210 0%, #117B1C 2%);
+    background-blend-mode: darken;
+    gap: 32px;
+}
+
+.logo-img {
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+}
+
+
+.promessa {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    width: max-content;
+    height: max-content;
+    background-color: #1768ac;
+
+}
+
+.promessa h1 {
+    margin: auto;
+    width: auto;
+    color: #ffffff;
+    text-align: center;
+    box-shadow: 1px 1px 8px 8px #C5F210;
+    padding: 12px;
+    border-radius: 16px;
+
+}
+
+.preco {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    width: max-content;
+    height: max-content;
+    background-color: #1768ac;
+    box-shadow: 1px 1px 8px 8px #C5F210;
+    padding: 12px;
+    border-radius: 16px;
+
+}
+
+.preco h2 {
+    margin: auto;
+    width: 502px;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 32px 135px;
+    width: 100vw;
+    height: auto;
+    background: linear-gradient(0deg, #C5F210 0%, #117B1C 2%);
+    background-blend-mode: darken;
+    gap: 32px;
+
+}
+
+.about-prdouglas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    width: 100%;
+    box-shadow: 1px 1px 8px 8px #C5F210;
+    border-radius: 9px;
+    background-color: #1768ac;
+    padding: 32px;
+}
+
+.about-prdouglas h3 {
+    text-align: center;
+}
+
+.about-bg {
+    width: auto;
+    height: fit-content;
+    box-shadow: 1px 1px 8px 8px #C5F210;
+    border-radius: 9px;
+    background-color: #1768ac;
+    padding: 16px;
+
+}
+
+.about-bg h2, h3 {
+    text-align: center;
+}
+
+.program-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 32px 135px;
+    width: 100vw;
+    height: auto;
+    background: linear-gradient(0deg, #C5F210 0%, #117B1C 2%);
+    background-blend-mode: darken;
+    gap: 32px;
+}
+
+.card-container {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 32px 24px;
+    width: 100vw;
+    height: auto;
+    background: linear-gradient(0deg, #C5F210 0%, #117B1C 2%);
+    background-blend-mode: darken;
+    gap: 16px;
+}
+
+.card-picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 230px;
+    height: 250px;
+    padding: 8px;
+    border-radius: 9px;
+    background-color: transparent;
+    box-shadow: 1px 1px 8px 8px #C5F210;
+
+}
+
+.card-picture p {
+    text-align: center;
+    max-width: 200px;
+}
+
+.teacher-pictures {
+    width: auto;
+    height: fit-content;
+    box-shadow: 1px 1px 8px 8px #C5F210;
+    border-radius: 9px;
+    background-color: #1768ac;
+}
+
+.teacher-pictures h2, h3 {
+    text-align: center;
+    padding: 8px 0px;
+}
+
+
+.container-bg {
+
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    box-shadow: 1px 1px 8px 12px #C5F210;
+    margin: auto;
+    border-radius: 9px;
+    padding: 16px;
+    background-color: #1768ac;
+
+
+}
+
+.container-bg h2 {
+    text-align: center;
+    gap: 16px;
+}
+
+.container-bg h3 {
+    text-align: center;
+    gap: 16px;
+}
+
+.rodape {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 128px;
+    padding-top: 16px;
+    gap: 32px;
+    background-color: #1768ac;
+
+}
+
+.rodape h4 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+    padding: 8px;
+}
+
+@media screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+
+
+    .header-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        padding: 12px;
+        gap: 32px;
+        overflow-x: hidden;
+    }
+
+    .video-container {
+        display: flex;
+        align-items: center;
+        width: 340px;
+        height: auto;
+        gap: 32px;
+        padding-bottom: 16px;
+
+    }
+
+    .promessa {
+        margin-top: 16px;
+        margin-bottom: 16px;
+        width: 337px;
+        height: fit-content;
+        background-color: #1768ac;
+
+    }
+
+    .preco h2 {
+        width: 340px;
+
+    }
+
+    .about-container {
+
+        padding: 24px;
+        gap: 32px;
+
+    }
+
+    .program-container {
+        padding: 16px;
+        justify-content: center;
+    }
+
+    .about-prdouglas {
+        flex-wrap: wrap;
+
+    }
+
+    .about-prdouglas h3 {
+        font-size: 1em;
+    }
+
+    .about-container ul {
+        padding: 16px;
+    }
+
+    .card-container {
+        gap: 32px;
+    }
+
+}
