@@ -76,9 +76,9 @@ p {
 }
 
 
-.cta {
+a.cta {
     position: fixed;
-    left: 25%;
+    left: 25px;
     top: 80%;
     width: 232px;
     height: 75px;
@@ -92,7 +92,6 @@ p {
     font-size: 24px;
     border-radius: 12px;
     text-transform: uppercase;
-    z-index: 99999;
 }
 
 .header-container {
