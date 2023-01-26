@@ -75,25 +75,24 @@ p {
 
 }
 
-.whats {
-    position: fixed;
-    bottom: 30%;
-    left: 30%;
-}
 
-.whats a {
+.cta {
+    position: fixed;
+    left: 25%;
+    top: 80%;
+    width: 232px;
+    height: 75px;
     display: flex;
     align-items: center;
-    width: 215px;
-    height: 68px;
-    font-size: 20px;
-    padding: 10px;
-    border: #C5F210 1px solid;
-    border-radius: 12px;
-    text-decoration: none;
+    justify-content: space-evenly;
     background-color: #F3A500;
+    text-decoration: none;
     color: #ffffff;
+    padding: 4px;
+    font-size: 24px;
+    border-radius: 12px;
     text-transform: uppercase;
+    z-index: 99999;
 }
 
 .header-container {
