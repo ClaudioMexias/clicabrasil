@@ -75,6 +75,26 @@ p {
 
 }
 
+.whats {
+    position: fixed;
+    bottom: 30%;
+    left: 30%;
+}
+
+.whats a {
+    display: flex;
+    align-items: center;
+    width: 215px;
+    height: 68px;
+    font-size: 20px;
+    padding: 10px;
+    border: #C5F210 1px solid;
+    border-radius: 12px;
+    text-decoration: none;
+    background-color: #F3A500;
+    color: #ffffff;
+    text-transform: uppercase;
+}
 
 .header-container {
     display: flex;
