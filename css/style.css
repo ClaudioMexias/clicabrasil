@@ -77,21 +77,24 @@ p {
 
 
 a.cta {
-    position: fixed;
-    left: 25px;
-    top: 80%;
-    width: 232px;
-    height: 75px;
-    display: flex;
+    display: inline-flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
-    background-color: #F3A500;
+    width: 100%;
+    max-width: 400px;
+    height: 55px;
+    position: fixed;
+    top: 85%;
+    transform: translatex(0%);
     text-decoration: none;
-    color: #ffffff;
-    padding: 4px;
-    font-size: 24px;
-    border-radius: 12px;
+    background-color: orange;
+    color: #fff;
+    font-size: 1.25em;
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
     text-transform: uppercase;
+    border-radius: 12px;
+    z-index: 99999;
 }
 
 .header-container {
