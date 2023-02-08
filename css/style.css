@@ -41,11 +41,12 @@ h2 {
 
 /* subtitulo */
 h3 {
-    font-size: 1.25em;
+    font-size: 1.8em;
     font-weight: 500;
 
-
 }
+
+
 
 /* cta */
 h4 {
@@ -75,6 +76,9 @@ p {
 
 }
 
+li {
+    font-size: 2.2em;
+}
 
 a.cta {
     display: inline-flex;
@@ -137,6 +141,11 @@ a.cta {
 
 }
 
+.intencao h3 {
+    text-align: justify;
+
+}
+
 .preco {
     margin-top: 24px;
     margin-bottom: 24px;
@@ -185,7 +194,8 @@ a.cta {
 }
 
 .about-prdouglas h3 {
-    text-align: center;
+    font-size: 1.5em;
+    text-align: justify;
 }
 
 .about-bg {
@@ -219,14 +229,12 @@ a.cta {
 
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 32px 24px;
     width: 100vw;
     height: auto;
     background: linear-gradient(0deg, #C5F210 0%, #117B1C 2%);
-    background-blend-mode: darken;
-    gap: 16px;
+    gap: 32px;
 }
 
 .card-picture {
@@ -369,9 +377,6 @@ a.cta {
 
     }
 
-    .about-prdouglas h3 {
-        font-size: 1em;
-    }
 
     .about-container ul {
         padding: 16px;
