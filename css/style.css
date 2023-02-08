@@ -136,8 +136,8 @@ a.cta {
     color: #ffffff;
     text-align: center;
     box-shadow: 1px 1px 8px 8px #C5F210;
-    padding: 12px;
-    border-radius: 16px;
+    padding: 32px;
+    border-radius: 12px;
 
 }
 
@@ -153,8 +153,8 @@ a.cta {
     height: max-content;
     background-color: #1768ac;
     box-shadow: 1px 1px 8px 8px #C5F210;
-    padding: 12px;
-    border-radius: 16px;
+    padding: 32px;
+    border-radius: 12px;
 
 }
 
@@ -188,7 +188,7 @@ a.cta {
     gap: 32px;
     width: 100%;
     box-shadow: 1px 1px 8px 8px #C5F210;
-    border-radius: 9px;
+    border-radius: 12px;
     background-color: #1768ac;
     padding: 32px;
 
@@ -203,9 +203,9 @@ a.cta {
     width: auto;
     height: fit-content;
     box-shadow: 1px 1px 8px 8px #C5F210;
-    border-radius: 9px;
+    border-radius: 12px;
     background-color: #1768ac;
-    padding: 16px;
+    padding: 32px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -243,7 +243,8 @@ a.cta {
 
 .title {
     background-color: #1768ac;
-
+    border-radius: 12px;
+    box-shadow: 1px 1px 8px 8px #C5F210;
 
 }
 
@@ -258,7 +259,7 @@ a.cta {
     height: 250px;
     padding: 8px;
     border-radius: 9px;
-    background-color: transparent;
+    background-color: #00000070;
     box-shadow: 1px 1px 8px 8px #C5F210;
 
 }
@@ -271,15 +272,15 @@ a.cta {
 .teacher-pictures {
     width: auto;
     height: fit-content;
-
-    border-radius: 9px;
+    padding: 32px;
     background-color: #274c6a;
 
 }
 
 .teacher-pictures h2, h3 {
     text-align: center;
-    padding: 8px 0px;
+    padding: 12px 0px;
+
 }
 
 
@@ -290,8 +291,8 @@ a.cta {
     background-color: transparent;
     box-shadow: 1px 1px 8px 12px #C5F210;
     margin: auto;
-    border-radius: 9px;
-    padding: 16px;
+    border-radius: 12px;
+    padding: 32px;
     background-color: #1768ac;
 
 
