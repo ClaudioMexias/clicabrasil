@@ -11,6 +11,7 @@
 
 html, body {
     width: 100%;
+    height: 100%;
 
 }
 
@@ -143,6 +144,20 @@ a.cta {
     align-items: center;
 }
 
+.video-container {
+    width: 540px;
+    height: 340px;
+    position: relative;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    border-radius: 12px;
+}
 
 .promessa {
     margin-top: 24px;
@@ -361,6 +376,10 @@ a.cta {
         width: 100%;
     }
 
+    .video-container {
+        width: 400px;
+
+    }
 
     .header-container {
         display: flex;
@@ -373,20 +392,11 @@ a.cta {
         overflow-x: hidden;
     }
 
-    .video-container {
-        display: flex;
-        align-items: center;
-        width: 340px;
-        height: auto;
-        gap: 32px;
-        padding-bottom: 16px;
-
-    }
 
     .promessa {
         margin-top: 16px;
         margin-bottom: 16px;
-        width: 337px;
+        width: auto;
         height: fit-content;
         background-color: #1768ac;
 
