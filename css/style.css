@@ -17,7 +17,6 @@ html, body {
 
 body {
     background-color: #12130f;
-    /*    */
     overflow-x: hidden;
     font-size: 1em;
     font-weight: normal;
@@ -78,8 +77,6 @@ p {
 }
 
 ol {
-    /* margin-left: auto;
-    margin-right: auto; */
     margin: 0 auto;
     line-height: 1, 8em;
     padding: 12px 0px;
@@ -110,10 +107,10 @@ a.cta {
     align-items: center;
     width: 100%;
     max-width: 400px;
-    height: 55px;
+    height: 75px;
     position: fixed;
     top: 85%;
-    transform: translatex(0%);
+    left: auto;
     text-decoration: none;
     background-color: orange;
     color: #fff;
